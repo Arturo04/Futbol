@@ -1,0 +1,152 @@
+* {
+	padding:0px;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ 
+ 
+ }
+h1{
+	margin-top: 20px
+	font-family: 'Source Code Pro', monospace;
+	background-color: black
+
+}
+div#cuerpo{
+	background: #708090;
+	width:990px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	
+
+
+}
+div#titulo{
+	background: #E6E6FA;
+	margin-top: 20px;
+}
+
+
+.slider {
+	width: 78%;
+	margin: auto;
+	border: 1px;
+	overflow: hidden;
+}
+
+.slider ul{
+	display: flex;
+	padding-bottom: 0%;
+	width: 400%;
+	animation: cambio 15s infinite;
+	animation-direction: alternate;
+
+}
+ 
+.slider li{
+	width: 100%;
+	list-style: none;
+
+	
+
+}
+.slider img{
+	border: px;
+	width: 100%;
+	height: 85%;
+
+
+}
+
+@keyframes cambio{
+	0% { margin-left: 0% }
+	20% {margin-left: 0%}
+
+	25% { margin-left: -100% }
+	45% {margin-left: -100%}
+
+	50% { margin-left: -200% }
+	70% {margin-left: -200%}
+
+
+	75% { margin-left: -300% }
+	100% {margin-left: -300%}
+
+	
+}	
+div#video{
+	background: #2F4F4F;	
+	margin: auto;
+	
+	
+}
+div#video1{
+	background:#2F4F4F;
+	margin: auto;
+}
+div#video2{
+	background:#2F4F4F ;
+	margin: auto;
+
+}
+div#video3{
+	background: #2F4F4F ;
+	margin: auto;
+}
+
+div#pie{
+	background-color: black; 
+
+
+}
+p#solo{
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.vibrador:hover{
+ -- animation: 1s vibracion infinite
+}
+@keyframes vibracion{
+	10%{
+		-moz-transform:translatex(10px);
+	}	
+}
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+	
